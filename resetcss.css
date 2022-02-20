@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Bitter:wght@600&family=Dosis:wght@200;300;600&family=Outfit:wght@200&family=Proza+Libre&family=Roboto:ital,wght@1,300&family=Shippori+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Bitter:wght@600&family=Dosis:wght@200;300;600&family=Outfit:wght@200&family=Proza+Libre&family=Redressed&family=Roboto:ital,wght@1,300&family=Shippori+Antique&family=Special+Elite&display=swap');
+
+ /* ------------------------------------------------------------------TYPOGRAPG-------------------Y */
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+  }
+  html{
+      font-size: 62.5%;
+    font-family: "Lucida Sans", sans-serif;
+
+  }
+  h1{
+    font-family: 'Shippori Antique', sans-serif;
+  }
+ h2{
+     margin: 2rem 0;
+    font-family: 'Outfit', sans-serif;
+
+ }
+ hr{
+     margin: 1rem 0;
+ }
+ 
+a{
+      text-decoration: none;
+      font-size: 3rem;
+  }
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+      font-size: 1.7rem;
+      margin:  1rem 0 0 0;
+  }
+input{
+      padding: 0;
+      margin:0;
+      cursor: pointer;
+}
+  /* --------------------------------------------------------GRID-LAYOUT------------------------------------ */
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+    /* -------------------------------------HEADER */
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    height: 15vh;
+   }
+
+.brand-logo-box{
+    display: flex;
+    cursor: pointer;
+}
+.brand-logo-box img{
+width: 100%;
+}
+.logo-box{
+ display: flex;
+ align-items: center;
+
+}
+   .right-head{
+    display: flex;
+    justify-content: end;
+    gap: 3rem;
+}
+.search-box{
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+    align-items: center;
+}
+
+.search-input{
+  width: 60%;
+  height: 4rem;
+  padding: 1rem;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+.search-input:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.brandname-tag{
+  color: #0369a1
+}
+/* -------------------------------------------------------FOOTER */
+.footer {
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem
+  }
+  .footer-head{
+    font-size: 3rem;
+    font-family: 'Proza Libre', sans-serif;
+  }
+  .footer-tag{
+    font-size: 2rem;
+    font-family: 'Proza Libre', sans-serif;
+
+  }
+  
+
+ /* ------------------------------------------------------------------------------------------CARD----- */
+  .card-head {
+    font-size:var(--card-heading-font-size);
+    padding-top:1rem ;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+}
+.card-tag {
+    font-size:var(--card-tag-font-size);
+    color: gray;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-desc {
+    font-size:var(--card-description-font-size);
+}
+.card-price {
+    font-size:var(--card-price-font-size);
+    font-family: 'Outfit', sans-serif;
+}
+.card-size{
+    margin-top: 0.5rem;
+    font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card-qty{
+   font-size: 2rem;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.original {
+    text-decoration: line-through;
+  }
+.card-discount {
+    color: red;
+    font-size: var(--card-discount-font-size);
+    font-family: 'Outfit', sans-serif;
+}
+.price-box{
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+  font-size: 2rem;
+  font-family: 'Outfit', sans-serif;
+  border: none;
+  background-color: var(--primary-color) ;
+  color: var(--background-color);
+  border-radius: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+/* ------------------------------------------------------------------------------ */
+
+button:hover{
+  background-color: #0369a1;
+}
+

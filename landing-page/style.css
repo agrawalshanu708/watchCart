@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Bitter:wght@600&family=Dosis:wght@200;300;600&family=Outfit:wght@200&family=Proza+Libre&family=Redressed&family=Roboto:ital,wght@1,300&family=Shippori+Antique&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Bitter:wght@600&family=Dosis:wght@200;300;600&family=Outfit:wght@200&family=Proza+Libre&family=Redressed&family=Roboto:ital,wght@1,300&family=Shippori+Antique&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Bitter:wght@600&family=Dosis:wght@200;300;600&family=Outfit:wght@200&family=Proza+Libre&family=Redressed&family=Roboto:ital,wght@1,300&family=Shippori+Antique&family=Special+Elite&display=swap');
+@import "/resetcss.css";
+@import "/variablecss.css";
+
+
+/* -----------------------------------------------------------------------------RESPONSIVE */
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    html{
+        font-size: 40%;
+    }
+    [class*="col-"] {
+        width: 100%;
+       }
+       .sliding-banner img{
+        width: 100%;
+        height: auto;   
+       }
+}
+  
+  /* ------------------------------------------------------------------------------SLIDER--*/
+  .sliding-banner img{
+   width: 100%;
+   height: 60rem;   
+  }
+  .sliding-banner{
+      position: relative;
+  }
+  .fades {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  /* ----------------------------------dots */
+
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    margin-bottom: 8rem;
+  }
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+/* -------------------------------arrows */
+  .forward-arrow{
+    position: absolute;
+    right: 4%;
+    top:50%;
+    transition: 0.6s ease;
+    cursor: pointer;
+    padding: 1rem;
+  }
+    .backward-arrow{
+     position: absolute;
+     left: 4%;
+     top: 50%;
+     cursor: pointer;
+     transition: 0.6s ease;
+     padding: 1rem;
+    }
+    .forward-arrow:hover,.backward-arrow:hover{
+        background-color: var(--background-color);
+        color: var(--primary-color);
+    }
+  /* ----------------------------------------------------------------------Watch Category */
+.watch-display {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 12rem;
+}
+ 
+.home-heading{
+font-size: 4rem;
+font-weight: bold;
+font-family: 'Outfit', sans-serif;
+}
+.sub-heading{
+font-size: 2.5rem;
+font-family: 'Proza Libre', sans-serif;
+}
+.img-four{
+    height: 30rem;
+}
+.img-four img{
+    height: 100%;
+    width: 100%;
+}
+/* ----------------------------------------------------------------------MEN-WOMEN-DISPLAY */
+.men-women-display{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7rem;
+}
+.watch-text{
+     box-shadow: 0 1rem 1rem rgba(0,0,0,0.12), 0 1rem 1rem rgba(0,0,0,0.24);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+.home-card-head{
+  font-size: 2rem;
+  font-family: 'Proza Libre', sans-serif;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  }
+.home-card-tittle{
+      font-family: 'Proza Libre', sans-serif;
+      font-size: 5rem;
+      margin-bottom: 1rem;
+  }
+.home-card-desc{
+      font-size: 2rem;
+      font-family: 'Proza Libre', sans-serif;
+      margin-bottom: 4rem;
+      width: 80%;
+  }
+  .shop-now-button{
+      width: 15rem;
+      height: 5rem;
+  }
+/* --------------------------------------------------------------------------------BRAND SLIDES */
+.brand-slides{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6rem
+}

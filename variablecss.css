@@ -1,0 +1,16 @@
+:root{
+    --primary-color:#38bdf8;
+    --background-color: #f0f9ff;
+    --h1-font-size: 3.4rem;
+    --h2-font-size: 3rem;
+    --p-font-size: 2.3rem;
+}
+:root{
+    --card-tittle-font-size: 2.5rem;
+    --card-heading-font-size: 2.3rem;
+    --card-tag-font-size: 2rem;
+    --card-description-font-size: 2.2rem;
+    --card-price-font-size : 2.3rem;
+    --card-discount-font-size: 1.7rem;
+
+}
