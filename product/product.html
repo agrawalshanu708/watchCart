@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="product.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+       
+
+  <!-- ------------------------------------------------HEADER -->
+  <div class="header col-12">
+        
+    <div class="logo-box col-3">
+        <div class="brand-logo-box col-6">
+            <img src="/images/brand-logo.svg" alt="">
+        </div>
+       <a href="/landing-page/index.html" class="brandname">Watch<span class="brandname-tag">Cart</span> </a>
+    </div>
+
+     <div class="search-box col-6">
+      <input class="search-input" placeholder="Search for products">
+
+      <span class="material-icons search-icon">search</span>       
+     </div>
+
+       <div class="right-head col-3">
+            <a href="../Cart/cart.html" class="cart"><span class="material-icons header-icon-size">
+            shopping_cart
+            </span></a>
+            <a href="../wishlist/wishlist.html" class="wishlist">  <span class="material-icons header-icon-size">
+                favorite
+                </span></a>
+                <a href="../login-page/login-page.html" class="login"> <span class="material-icons header-icon-size">
+                    person
+                    </span></a>
+        </div>
+        </div>
+     
+      <!-- ---------------------------------------------------------------------- PRODUCTS & FILTER -->
+        
+      <div class="products-showcase col-12">
+     
+         <!------------------------------------FILTER--  -->
+        
+        <div class="filter-section col-2">
+          <div class="filter-heading-box">
+        <h1>FILTERS</h2>
+        <button class="filter-clear-btn">Clear</button>
+        </div>
+        <!-- -----------------------------------gender -->
+            <form>
+              <label class="radio-container">
+                <input 
+                class="radiobox"
+                  type="radio"
+                  name="gender"
+                  value="Men"
+                  checked
+                />
+                <span class="check-mark">Men</span>
+              </label>
+
+              <label class="radio-container">
+                <input
+                   class="radiobox"
+                  type="radio"
+                  name="gender"
+                  value="Women"
+                />
+                <span class="check-mark">Women</span>
+              </label>
+              <label class="radio-container">
+                <input
+                  class="radiobox"
+                  type="radio"
+                  name="gender"
+                  value="kids"
+                />
+                <span class="check-mark">Kids</span>
+              </label> 
+              
+            </form>
+             <hr>
+        <!-- ---------------------------------------------category----------- -->
+            <h2>CATEGORIES</h2>
+         
+              <form>
+              <p>
+                <input class="w3-check" type="checkbox" checked="checked" />
+                <label>Casual</label>
+              </p>
+              <p>
+                <input class="w3-check" type="checkbox" />
+                <label> Formal </label>
+              </p>
+              <p>
+                <input class="w3-check" type="checkbox" />
+                <label>Smart Watches</label>
+              </p>
+              <p>
+                <input class="w3-check" type="checkbox" />
+                <label>Analog</label>
+              </p>
+            </form>
+               <hr>
+    <!-- ----------------------------------------------------------------------------BRAND-------- -->
+            <h2>BRAND</h2>
+            <form>
+              <p>
+                <input class="w3-check" type="checkbox" checked="checked" />
+                <label>Apple</label>
+              </p>
+              <p>
+                <input class="w3-check" type="checkbox" />
+                <label>Fossil</label>
+              </p>
+              <p>
+                <input class="w3-check" type="checkbox" />
+                <label>Peter England</label>
+              </p>
+              <p>
+                <input class="w3-check" type="checkbox" />
+                <label>Titan</label>
+              </p>
+            </form>
+               <hr>
+            <!-- --------------------------------------------------DISCOUNT---------------------------------- -->
+               <h2>Discount </h2>
+            <form>
+                <p>
+                  <input class="w3-check" type="checkbox" checked="checked" />
+                  <label>10% and above</label>
+                </p>
+                <p>
+                  <input class="w3-check" type="checkbox" />
+                  <label>20% and above</label>
+                </p>
+                <p>
+                  <input class="w3-check" type="checkbox" />
+                  <label>30% and above</label>
+                </p>
+                <p>
+                  <input class="w3-check" type="checkbox" />
+                  <label>40% and above</label>
+                </p><p>
+                  <input class="w3-check" type="checkbox" />
+                  <label>50% and above</label>
+                </p>
+              </form>
+            </div>
+<!-- ----------------------------------------------------------------PRODUCT-SECTION -->
+      
+        <div class="products-section col-10">
+           
+          <div class="p-card ">
+               <div class="img-box">
+                   <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1485600/2016/9/22/11474530004820-Fossil-Men-Black-Chronograph-Dial-Watch-CH2600IE-3011474530004549-1.jpg" alt="">
+                   <span class="material-icons wishlist-icon">
+                    favorite
+                    </span>
+ 
+               </div>
+               <div class="details-box">
+                   <div class="card-head">Fossil</div>
+                   <div class="card-tag">Men Traditional Swiss Analog</div>
+                   <div class="price-box">
+                   <div class="card-price">Rs.3999</div>
+                   <div class="card-discount">20%OFF</div>
+                    </div>
+                    <button class="add-to-cart">Add To Cart <span class="material-icons header-icon-size">shopping_cart</span></button>
+
+
+               </div>
+            </div>
+           <div class="p-card ">
+            <div class="img-box">
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/8063367/2022/1/31/6c252163-09a5-4acb-9c8e-a9055fadf5871643627943515-Armani-Exchange-Men-Black-Analogue-Watch-5131643627942846-1.jpg" alt="">
+                <span class="material-icons wishlist-icon">
+                 favorite
+                 </span>
+
+            </div>
+            <div class="details-box">
+                <div class="card-head">Fossil</div>
+                <div class="card-tag">Men Traditional Swiss Analog</div>
+                <div class="price-box">
+                <div class="card-price">Rs.3999</div>
+                <div class="card-discount">20%OFF</div>
+                 </div>
+                 <button class="add-to-cart">Add To Cart <span class="material-icons header-icon-size">shopping_cart</span></button>
+
+
+            </div>
+           </div>
+           <div class="p-card ">
+            <div class="img-box">
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/16977362/2022/1/29/988092a5-5c37-4f9a-92dd-80b1f708e08c1643447700769ZINVOMenBlackBrassDialBlackWrapAroundStrapsAnalogueAutomatic1.jpg" alt="">
+                <span class="material-icons wishlist-icon">
+                 favorite
+                 </span>
+
+            </div>
+            <div class="details-box">
+                <div class="card-head">Fossil</div>
+                <div class="card-tag">Men Traditional Swiss Analog</div>
+                <div class="price-box">
+                <div class="card-price">Rs.3999</div>
+                <div class="card-discount">20%OFF</div>
+                 </div>
+                <button class="add-to-cart">Add To Cart <span class="material-icons header-icon-size">shopping_cart</span></button>
+
+            </div>
+           </div>
+           <div class="p-card ">
+            <div class="img-box">
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2211781/2018/5/17/079642c0-413d-41b5-a612-c154a61492911526537394147-Roadster-Men-Black-Analogue-Watch-PN-LB-9376-3491526537393907-1.jpg" alt="">
+                <span class="material-icons wishlist-icon">
+                 favorite
+                 </span>
+
+            </div>
+            <div class="details-box">
+                <div class="card-head">Fossil</div>
+                <div class="card-tag">Men Traditional Swiss Analog</div>
+                <div class="price-box">
+                <div class="card-price">Rs.3999</div>
+                <div class="card-discount">20%OFF</div>
+                 </div>
+                 <button class="add-to-cart">Add To Cart <span class="material-icons header-icon-size">shopping_cart</span></button>
+
+            </div>
+           </div>
+           <div class="p-card ">
+            <div class="img-box">
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1485600/2016/9/22/11474530004820-Fossil-Men-Black-Chronograph-Dial-Watch-CH2600IE-3011474530004549-1.jpg" alt="">
+                <span class="material-icons wishlist-icon">
+                 favorite
+                 </span>
+
+            </div>
+            <div class="details-box">
+                <div class="card-head">Fossil</div>
+                <div class="card-tag">Men Traditional Swiss Analog</div>
+                <div class="price-box">
+                <div class="card-price">Rs.3999</div>
+                <div class="card-discount">20%OFF</div>
+                 </div>
+                 <button class="add-to-cart">Add To Cart <span class="material-icons header-icon-size">shopping_cart</span></button>
+
+
+            </div>
+           </div>
+           <div class="p-card ">
+            <div class="img-box">
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1485600/2016/9/22/11474530004820-Fossil-Men-Black-Chronograph-Dial-Watch-CH2600IE-3011474530004549-1.jpg" alt="">
+                <span class="material-icons wishlist-icon">
+                 favorite
+                 </span>
+
+            </div>
+            <div class="details-box">
+                <div class="card-head">Fossil</div>
+                <div class="card-tag">Men Traditional Swiss Analog</div>
+                <div class="price-box">
+                <div class="card-price">Rs.3999</div>
+                <div class="card-discount">20%OFF</div>
+                 </div>
+                 <button class="add-to-cart">Add To Cart <span class="material-icons header-icon-size">shopping_cart</span></button>
+
+
+            </div>
+         </div>
+        <div class="p-card ">
+         <div class="img-box">
+             <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/8063367/2022/1/31/6c252163-09a5-4acb-9c8e-a9055fadf5871643627943515-Armani-Exchange-Men-Black-Analogue-Watch-5131643627942846-1.jpg" alt="">
+             <span class="material-icons wishlist-icon">
+              favorite
+              </span>
+
+         </div>
+         <div class="details-box">
+             <div class="card-head">Fossil</div>
+             <div class="card-tag">Men Traditional Swiss Analog</div>
+             <div class="price-box">
+             <div class="card-price">Rs.3999</div>
+             <div class="card-discount">20%OFF</div>
+              </div>
+              <button class="add-to-cart">Add To Cart <span class="material-icons header-icon-size">shopping_cart</span></button>
+
+
+         </div>
+        </div>
+        <div class="p-card ">
+         <div class="img-box">
+             <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/16977362/2022/1/29/988092a5-5c37-4f9a-92dd-80b1f708e08c1643447700769ZINVOMenBlackBrassDialBlackWrapAroundStrapsAnalogueAutomatic1.jpg" alt="">
+             <span class="material-icons wishlist-icon">
+              favorite
+              </span>
+
+         </div>
+         <div class="details-box">
+             <div class="card-head">Fossil</div>
+             <div class="card-tag">Men Traditional Swiss Analog</div>
+             <div class="price-box">
+             <div class="card-price">Rs.3999</div>
+             <div class="card-discount">20%OFF</div>
+              </div>
+             <button class="add-to-cart">Add To Cart <span class="material-icons header-icon-size">shopping_cart</span></button>
+
+         </div>
+        </div>
+        <div class="p-card ">
+         <div class="img-box">
+             <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2211781/2018/5/17/079642c0-413d-41b5-a612-c154a61492911526537394147-Roadster-Men-Black-Analogue-Watch-PN-LB-9376-3491526537393907-1.jpg" alt="">
+             <span class="material-icons wishlist-icon">
+              favorite
+              </span>
+
+         </div>
+         <div class="details-box">
+             <div class="card-head">Fossil</div>
+             <div class="card-tag">Men Traditional Swiss Analog</div>
+             <div class="price-box">
+             <div class="card-price">Rs.3999</div>
+             <div class="card-discount">20%OFF</div>
+              </div>
+              <button class="add-to-cart">Add To Cart <span class="material-icons header-icon-size">shopping_cart</span></button>
+
+         </div>
+        </div>
+        <div class="p-card ">
+         <div class="img-box">
+             <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1485600/2016/9/22/11474530004820-Fossil-Men-Black-Chronograph-Dial-Watch-CH2600IE-3011474530004549-1.jpg" alt="">
+             <span class="material-icons wishlist-icon">
+              favorite
+              </span>
+
+         </div>
+         <div class="details-box">
+             <div class="card-head">Fossil</div>
+             <div class="card-tag">Men Traditional Swiss Analog</div>
+             <div class="price-box">
+             <div class="card-price">Rs.3999</div>
+             <div class="card-discount">20%OFF</div>
+              </div>
+              <button class="add-to-cart">Add To Cart <span class="material-icons header-icon-size">shopping_cart</span></button>
+
+
+         </div>
+        </div>
+        <div class="p-card ">
+          <div class="img-box">
+              <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1485600/2016/9/22/11474530004820-Fossil-Men-Black-Chronograph-Dial-Watch-CH2600IE-3011474530004549-1.jpg" alt="">
+              <span class="material-icons wishlist-icon">
+               favorite
+               </span>
+
+          </div>
+          <div class="details-box">
+              <div class="card-head">Fossil</div>
+              <div class="card-tag">Men Traditional Swiss Analog</div>
+              <div class="price-box">
+              <div class="card-price">Rs.3999</div>
+              <div class="card-discount">20%OFF</div>
+               </div>
+               <button class="add-to-cart">Add To Cart <span class="material-icons header-icon-size">shopping_cart</span></button>
+
+
+          </div>
+       </div>
+      <div class="p-card ">
+       <div class="img-box">
+           <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/8063367/2022/1/31/6c252163-09a5-4acb-9c8e-a9055fadf5871643627943515-Armani-Exchange-Men-Black-Analogue-Watch-5131643627942846-1.jpg" alt="">
+           <span class="material-icons wishlist-icon">
+            favorite
+            </span>
+
+       </div>
+       <div class="details-box">
+           <div class="card-head">Fossil</div>
+           <div class="card-tag">Men Traditional Swiss Analog</div>
+           <div class="price-box">
+           <div class="card-price">Rs.3999</div>
+           <div class="card-discount">20%OFF</div>
+            </div>
+            <button class="add-to-cart">Add To Cart <span class="material-icons header-icon-size">shopping_cart</span></button>
+
+
+       </div>
+      </div>
+      <div class="p-card ">
+       <div class="img-box">
+           <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/16977362/2022/1/29/988092a5-5c37-4f9a-92dd-80b1f708e08c1643447700769ZINVOMenBlackBrassDialBlackWrapAroundStrapsAnalogueAutomatic1.jpg" alt="">
+           <span class="material-icons wishlist-icon">
+            favorite
+            </span>
+
+       </div>
+       <div class="details-box">
+           <div class="card-head">Fossil</div>
+           <div class="card-tag">Men Traditional Swiss Analog</div>
+           <div class="price-box">
+           <div class="card-price">Rs.3999</div>
+           <div class="card-discount">20%OFF</div>
+            </div>
+           <button class="add-to-cart">Add To Cart <span class="material-icons header-icon-size">shopping_cart</span></button>
+
+       </div>
+      </div>
+      <div class="p-card ">
+       <div class="img-box">
+           <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2211781/2018/5/17/079642c0-413d-41b5-a612-c154a61492911526537394147-Roadster-Men-Black-Analogue-Watch-PN-LB-9376-3491526537393907-1.jpg" alt="">
+           <span class="material-icons wishlist-icon">
+            favorite
+            </span>
+
+       </div>
+       <div class="details-box">
+           <div class="card-head">Fossil</div>
+           <div class="card-tag">Men Traditional Swiss Analog</div>
+           <div class="price-box">
+           <div class="card-price">Rs.3999</div>
+           <div class="card-discount">20%OFF</div>
+            </div>
+            <button class="add-to-cart">Add To Cart <span class="material-icons header-icon-size">shopping_cart</span></button>
+
+       </div>
+      </div>
+      <div class="p-card ">
+       <div class="img-box">
+           <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1485600/2016/9/22/11474530004820-Fossil-Men-Black-Chronograph-Dial-Watch-CH2600IE-3011474530004549-1.jpg" alt="">
+           <span class="material-icons wishlist-icon">
+            favorite
+            </span>
+
+       </div>
+       <div class="details-box">
+           <div class="card-head">Fossil</div>
+           <div class="card-tag">Men Traditional Swiss Analog</div>
+           <div class="price-box">
+           <div class="card-price">Rs.3999</div>
+           <div class="card-discount">20%OFF</div>
+            </div>
+            <button class="add-to-cart">Add To Cart <span class="material-icons header-icon-size">shopping_cart</span></button>
+
+
+       </div>
+      </div>
+      <div class="p-card ">
+        <div class="img-box">
+            <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1485600/2016/9/22/11474530004820-Fossil-Men-Black-Chronograph-Dial-Watch-CH2600IE-3011474530004549-1.jpg" alt="">
+            <span class="material-icons wishlist-icon">
+             favorite
+             </span>
+ 
+        </div>
+        <div class="details-box">
+            <div class="card-head">Fossil</div>
+            <div class="card-tag">Men Traditional Swiss Analog</div>
+            <div class="price-box">
+            <div class="card-price">Rs.3999</div>
+            <div class="card-discount">20%OFF</div>
+             </div>
+             <button class="add-to-cart">Add To Cart <span class="material-icons header-icon-size">shopping_cart</span></button>
+ 
+ 
+        </div>
+       </div>
+
+        </div>
+    </div>
+    <div class="footer">
+      <div class="footer-head">Made with love By Shanu Agrawal</div>
+      <div class="footer-tag">Stay Connected</div>
+    
+    </div>
+</body>
+</html>
