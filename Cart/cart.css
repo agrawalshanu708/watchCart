@@ -1,0 +1,100 @@
+@import "../variablecss.css";
+@import "../resetcss.css";
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cart-container{
+    margin-left: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .final-card-container{
+    border: 1px solid black;
+  }
+
+.cart-container >div{
+    border: 1px solid #e0f2fe;
+  }
+
+/* --------------------------------------------------CARDS---------- */
+
+
+.horizontal-card {
+    display: flex;
+    width: 100%;
+}
+.horizontal-card-img-box {
+    width: 15rem;
+  }
+  .horizontal-card-img-box img {
+    width: 100%;
+}
+.horizontal-card-details{
+    display: flex;
+    flex-grow: 1;
+    margin-left: 9rem;
+    justify-content: space-between;
+
+}
+  .btn-box {
+    display: flex;
+  }
+  .btn {
+    border: transparent;
+    width: 20.5rem;
+    padding: 1rem 0;
+  }
+  .wish {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+  }
+  .remove {
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    width: 43rem;
+  }
+  .border-skin{
+    border: 1px solid #e0f2fe;
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+  .card-price-box{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+  }
+  /* ----------------------------- */
+  .price-order-box{
+      display: flex;
+      justify-content: space-between;
+  }
+  .button-box{
+    text-align: center;
+  }
+  .qty-box{
+      display: flex;
+     
+      align-items: center;
+  }
+  .qty-btn{
+      margin-left: 1rem;
+      width:3rem;
+      height: 3rem;
+  }
+  .negative-btn{
+      background-color: var(--background-color);
+      color: var(--primary-color);
+      border: 1px solid  var(--primary-color);
+  }
+  .order-place-btn{
+    width: 15rem;
+    height: 4rem;
+  }
