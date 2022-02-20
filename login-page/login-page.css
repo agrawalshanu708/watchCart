@@ -1,0 +1,57 @@
+@import "../resetcss.css";
+@import "../variablecss.css";
+
+/* -------------------------LANDING PAGE */
+.landing-img img{
+    width: 100%;
+    height: 100%;
+}
+
+/* --------------------------LOGIN-BOX */
+.login-details-box{
+    justify-content: center;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.login-box{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    box-shadow: 0 1rem 1rem rgba(0,0,0,0.12), 0 1rem 1rem rgba(0,0,0,0.24);
+    flex-direction: column;
+}
+.login-btn{
+    width: 10rem;
+    height: 4rem;
+}
+label{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+input{
+    margin-bottom: 1rem;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+.login-form-tag{
+    font-size: 2rem;
+    margin: auto;
+}
+.sign-up-link{
+    font-size: 1.5rem;
+    color: red;
+}
+
+/* ================= */
