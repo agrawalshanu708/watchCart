@@ -20,7 +20,7 @@ body{
   }
 
 .cart-container >div{
-    border: 1px solid #e0f2fe;
+    border: 1px solid var(--background-color);
   }
 
 /* --------------------------------------------------CARDS---------- */
@@ -61,7 +61,7 @@ body{
     width: 43rem;
   }
   .border-skin{
-    border: 1px solid #e0f2fe;
+    border: 1px solid var(--background-color);
     padding: 1rem;
     margin-bottom: 2rem;
   }
