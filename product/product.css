@@ -1,0 +1,156 @@
+@import "../resetcss.css";
+@import "../variablecss.css";
+
+/* ---------------------------------------------------------------------------------FILTER */
+.filter-section{
+    position: sticky;
+    left:0;
+    top: 0;
+    border-right: 1px solid var(--primary-color);
+    overflow-clip-box:scroll;
+}
+.filter-heading-box{
+    display: flex;
+    align-items: center;
+    gap: 1rem
+}
+.filter-clear-btn{
+    width: 10rem;
+    height: 4rem;
+    margin: 2rem auto;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    font-family: 'Outfit', sans-serif;
+    border: none;
+    background-color: var(--primary-color) ;
+    color: var(--background-color);
+    border-radius: 1rem;
+}
+.radio-container{
+    font-size: 1.5rem;
+}
+/* --------------------------------------------------------------------------------------ANIMATION */
+.p-card {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+/* -------------------------------------------------------------------------------HOVER ON P-CARD */
+ 
+.p-card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* -------------------------------------------......................................P CARD- */
+.products-section{
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.p-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50rem;
+    width: 27rem ;
+}
+
+.img-box{
+    margin-top: 0.8rem;
+    /* border: 1px solid black; */
+    height: 30rem;
+    width: 25rem;
+    position: relative;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.img-box img{
+    width: 100%;
+    height: 100%;
+}
+
+.wishlist-icon{
+   position: absolute;
+   top:2rem;
+   right: 2rem;
+   color: red;
+   cursor: pointer;
+}
+.details-box{
+   height: 20rem;
+   width: 25rem;
+
+}
+
+.add-to-cart{
+    margin-top: 1rem;
+    width: 25rem;
+    height: 4rem;
+    font-size: 2rem;
+    font-family: 'Outfit', sans-serif;
+    border: none;
+    background-color: var(--primary-color) ;
+    color:black;
+    border-radius: 1rem;
+}
+/* -----------------------------------------------------------------------------------RESPONSIVE------- */
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    html{
+        font-size: 40%;
+    }
+    [class*="col-"] {
+        width: 100%;
+       }
+    .filter-section{
+        display: none;
+    }
+    .products-section{
+        display: flex;
+        gap:0.2rem;
+    }
+    .p-card{
+       width: 20rem; 
+       height: 45rem;
+    }
+    .img-box{
+        height: 25rem;
+        width: 20rem;
+        position: relative;
+        display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    .img-box img{
+        width: 100%;
+        height: 100%;
+    }
+    .details-box{
+       height: 20rem;
+       width: 20rem;
+    
+    }
+       button{
+           width: 18rem;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+       }
+       .search-box{
+           display: none;
+       }
+    }
