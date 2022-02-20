@@ -1,0 +1,70 @@
+@import "/resetcss.css";
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Bitter:wght@600&family=Dosis:wght@200;300;600&family=Outfit:wght@200&family=Proza+Libre&family=Roboto:ital,wght@1,300&family=Shippori+Antique&display=swap');
+
+
+/* -----------------------------------------Responsive */
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    html{
+        font-size: 50%;
+    }
+.sign-up-page{
+    width: 80%;
+}
+
+}
+
+/* ------------------------------------------------------ */
+.header{
+  display: flex;
+  justify-content: start;
+
+}
+.main-row{
+
+    display: flex;
+   justify-content: space-around;
+    align-items: center;
+}
+.sign-up-page{
+    box-shadow: 0 1rem 1rem rgba(0,0,0,0.12), 0 1rem 1rem rgba(0,0,0,0.24);
+   min-height: 70vh;
+    
+}
+h1{
+    text-align: center;
+}
+.header{
+    height: 10vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    gap: 1rem;
+}
+input[type=text], input[type=password] {
+    
+    padding: 15px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    width: 90%;
+  }
+  
+  /* Add a background color when the inputs get focus */
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  label{
+      font-size: 1.7rem;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+  .sign-up-btn{
+    width: 10rem;
+    height: 4rem;
+  
+}
