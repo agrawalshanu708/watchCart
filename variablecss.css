@@ -12,5 +12,6 @@
     --card-description-font-size: 2.2rem;
     --card-price-font-size : 2.3rem;
     --card-discount-font-size: 1.7rem;
-
+    --wishlist-icon-from-top: 2rem;
+    --wishlist-icon-from-right: 2rem; 
 }
