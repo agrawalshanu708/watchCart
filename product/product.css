@@ -69,7 +69,6 @@
 
 .img-box{
     margin-top: 0.8rem;
-    /* border: 1px solid black; */
     height: 30rem;
     width: 25rem;
     position: relative;
@@ -84,8 +83,8 @@
 
 .wishlist-icon{
    position: absolute;
-   top:2rem;
-   right: 2rem;
+   top: var(--wishlist-icon-from-top);
+   right: var(--wishlist-icon-from-right);
    color: red;
    cursor: pointer;
 }
