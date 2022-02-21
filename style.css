@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Bitter:wght@600&family=Dosis:wght@200;300;600&family=Outfit:wght@200&family=Proza+Libre&family=Redressed&family=Roboto:ital,wght@1,300&family=Shippori+Antique&family=Special+Elite&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Bitter:wght@600&family=Dosis:wght@200;300;600&family=Outfit:wght@200&family=Proza+Libre&family=Redressed&family=Roboto:ital,wght@1,300&family=Shippori+Antique&family=Special+Elite&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Bitter:wght@600&family=Dosis:wght@200;300;600&family=Outfit:wght@200&family=Proza+Libre&family=Redressed&family=Roboto:ital,wght@1,300&family=Shippori+Antique&family=Special+Elite&display=swap');
-@import "/resetcss.css";
-@import "/variablecss.css";
+@import "./resetcss.css";
+@import "./variablecss.css";
 
 
 /* -----------------------------------------------------------------------------RESPONSIVE */
